@@ -1,0 +1,205 @@
+*{padding:0; margin: 0; box-sizing: border-box;}
+/*font-family: 'Poppins', sans-serif;*/
+/*font-family: 'Kalam', cursive;*/
+/*font-family: 'Averia Serif Libre', cursive;*/
+/*font-family: 'Dancing Script', cursive;*/
+header{
+    width: 100%;
+    height: 100vh;
+    background-color: antiquewhite;
+    background-size: cover;
+    color::after ;
+    
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background: rgb(151, 26, 151);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+    font-family: 'Poppins', sans-serif;*/
+}
+.logo{
+    font-size: 3em;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    color: #ffffff;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    font-weight: Semi-bold;
+    padding: 0.5rem 1rem;
+}
+.menu a:nth-child(5){
+    background: #ffffff;
+    border-radius: 8px;
+    margin: 0 1rem;
+}
+.menu i{
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+.menu a:hover{
+    background: #ffffff;
+    border-radius: 8px;
+}
+.right{
+	height:330px;
+	position:absolute;
+	left:85%;
+	transform: translateX(-78%);
+    border-radius: 50%;
+    flex-basis: 80%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+}
+.left{
+    flex-basis: 70%;
+}
+.left h2{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+}
+.left h1{
+    font-family: 'Kalam', cursive;
+    font-size: 5em;
+}
+#hire{
+    text-decoration: none;
+    background: rgb(151, 26, 151);
+    color: #ffffff;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+}
+#myp{
+    text-decoration: none;
+    color: #0f0f0f;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    border: 1px dashed rgb(0, 0, 0);
+}
+.leftbio img{
+	height:330px;
+	position:absolute;
+	right:45%;
+	transform: translateX(-78%);
+    border-radius: 40%;
+    flex-basis: 40%;
+}
+#bio{
+    cursor: pointer;
+    padding: 150px 70px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
+    background-color: antiquewhite;
+
+}
+.rightbio{
+    flex-basis: 60%;
+    text-align: right;
+    padding: 0 40px;
+}
+.leftbio{
+    flex-basis: 40%;
+}
+.rightbio p{
+    margin: 15px 0;
+    line-height: 2.5rem;
+}
+.rightbio h1{
+    font-size: 2rem;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+}
+#follow{
+    text-align: center;
+}
+#follow i{
+    color: rgb(151, 26, 151);
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+}
+
+.container1{
+    width: 100%;
+    height: 100vh;
+    padding: 0 8%;
+    font-family: 'Poppins', sans-serif;
+    background-color: antiquewhite;
+}
+.container1 h1{
+    text-align: center;
+    padding-top: 10%;
+    margin-bottom: 60px;
+    font-weight: 600;
+    position: relative;
+}
+.container1 h1::after{
+    content: '';
+    background: rgb(151, 26, 151);
+    width: 100px;
+    height: 5px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-40%);
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+.service{
+    text-align: center;
+    padding: 25px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    background: transparent;
+    transition: transform 0.5s, background 0.5s ;
+}
+.service i{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color:rgb(151, 26, 151) ;
+}
+.service h2{
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.service:hover{
+    background: rgb(151, 26, 151);
+    color: #ffffff;
+    transform: scale(1.05);
+}
+.service:hover i{
+    color: #ffffff;
+}
